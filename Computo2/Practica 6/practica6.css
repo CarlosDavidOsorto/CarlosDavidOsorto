@@ -1,18 +1,26 @@
+/* seleciona la etiqueta que se cambiara propiedades */
 ul{
+/* no se agrega ningun marcador a los item */
 list-style-type:none;
 }
 #all-menu {
+	
 width:auto;
 height: 68px;
+/* color de fondo del menu */
 background-color:#0f71ba;
 }
 
 #menu li a{
+	/* se configura el tipo o estilo de fuente */
 font-family:verdana;
+/* se asigna el tamaño de fuente */
 font-size:15px;
 float:left;
 padding:24px;
+/* color de fondo */
 background-color:#0f71ba;
+/* color de la fuente  */
 color: #fff;
 text-decoration:none;
 height:18px;
@@ -22,3 +30,25 @@ background-color:#f90;
 margin-top:-2px;
 font-weight:bold;
 }
+.menuCSS3 ul {
+		display: flex;
+		padding: 0;
+		margin: 0;
+		list-style: none;
+	}
+	.menuCSS3 a {
+		display: block;
+		padding: 2em;
+		background-color: #61A9E8;
+		text-decoration: none;
+		color: #191C26;
+	}
+	.menuCSS3 a:hover {
+		background-color: #CC673B;
+	}
+	.menuCSS3 ul li ul {
+		display: none;
+	}
+	.menuCSS3 ul li a:hover + ul, .menuCSS3 ul li ul:hover {
+		display: block;
+	}
