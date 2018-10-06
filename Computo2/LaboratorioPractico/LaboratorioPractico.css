@@ -1,0 +1,85 @@
+.menuCSS3 ul {
+	 font-weight: bold;
+		display: flex;
+		padding: 0;
+		margin: 0;
+		list-style: none;
+	}
+	.menuCSS3 a {
+		display: block;
+		padding: 2em;
+		background-color: #FFFFFF;
+		text-decoration: none;
+		color: #191C26;
+	}
+	.menuCSS3 a:hover {
+		background-color: #3D88E8;
+	}
+	.menuCSS3 ul li ul {
+		display: none;
+	}
+	.menuCSS3 ul li a:hover + ul, .menuCSS3 ul li ul:hover {
+		display: inline ;
+		z-index:auto;
+	}
+.row > div {
+	padding:10px;
+	background:#ddd;
+	border: 1px solid #fff;
+	text-align:center;
+}
+.row .ruw {
+	margin: 40px auto;
+}
+.row > div {
+	padding:10px;
+	background:#ddd;
+	border: 1px solid #fff;
+	text-align:center;
+}
+
+
+header{
+position:relative;
+background-color:#62B0CB;
+color:#FFF;
+width:98%;
+height:13%;
+margin: 0px auto;
+}
+section{
+position:relative;
+float:left;
+background-color:#215A93;
+width:78%;
+height:58%;
+color:#FFF;
+}
+article{
+background-color: #2F80D2;
+width:98%;
+height:58%;
+color:#FFF;
+}
+aside{
+position:relative;
+background-color:#1E5286;
+width:18%;
+height:55%;
+color:#FFF;
+float:left;
+position:center;
+
+}
+footer{
+position:relative;
+background-color:#102B46;
+width:98%;
+height:5%;
+color:#FFF;
+clear:both;
+}
+header,section,footer,aside,article,nav
+{
+margin:1%;
+}
